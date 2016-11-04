@@ -3,6 +3,17 @@ package com.arctro.dijkstra;
 public class Main {
 
 	public static void main(String[] args) {
+		/*
+		 * Vertex map (all paths have a weight of 1.0)
+		 * 
+		 * 0---2
+		 * |\  |
+		 * |  \|
+		 * 1---3
+		 *      \
+		 *       4
+		 */
+		
 		//Test data
 		Vertex[] vs = {new Vertex(0), new Vertex(1), new Vertex(2), new Vertex(3), new Vertex(4)};
 		
