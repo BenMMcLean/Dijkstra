@@ -26,11 +26,11 @@ public class Vertex {
 		this.id = id;
 	}
 
-	public VertexLink[] getLinkedVertexes() {
+	public VertexLink[] getLinkedVertices() {
 		return linkedVertices;
 	}
 
-	public void setLinkedVertexes(VertexLink[] linkedVertexes) {
+	public void setLinkedVertices(VertexLink[] linkedVertexes) {
 		this.linkedVertices = linkedVertexes;
 	}
 	

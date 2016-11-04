@@ -44,7 +44,7 @@ public class Dijkstra {
 			
 			//Calculate path weights
 			//Get the currentVertex's links
-			VertexLink[] links = currentVertex.getVertex().getLinkedVertexes();
+			VertexLink[] links = currentVertex.getVertex().getLinkedVertices();
 			//Search those links
 			for(int i = 0; i < links.length; i++){
 				//Get the state of the link being checked
