@@ -3,7 +3,7 @@ package com.arctro.dijkstra;
 //Stores a vertex
 public class Vertex {
 	int id;
-	VertexLink[] linkedVertexes;
+	VertexLink[] linkedVertices;
 	
 	public Vertex(){}
 
@@ -15,7 +15,7 @@ public class Vertex {
 	public Vertex(int id, VertexLink[] linkedVertexes) {
 		super();
 		this.id = id;
-		this.linkedVertexes = linkedVertexes;
+		this.linkedVertices = linkedVertexes;
 	}
 
 	public int getId() {
@@ -27,11 +27,11 @@ public class Vertex {
 	}
 
 	public VertexLink[] getLinkedVertexes() {
-		return linkedVertexes;
+		return linkedVertices;
 	}
 
 	public void setLinkedVertexes(VertexLink[] linkedVertexes) {
-		this.linkedVertexes = linkedVertexes;
+		this.linkedVertices = linkedVertexes;
 	}
 	
 	public boolean equals(Object o){
